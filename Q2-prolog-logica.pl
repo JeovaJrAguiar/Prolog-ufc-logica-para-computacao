@@ -12,4 +12,8 @@ pais('India', 3, 450).
 % Densidade demográfica de cada um dos países;
 dens(N,D) :- pais(N,A,P), D is P/A.
 
-% consulta: dens(N,D).
+% consulta: densidade demográfica de cada um dos países.
+% dens(N,D).
+
+% consulta: Índia é mais populosa que a China
+% pais('India',_,PopIndia),pais('China',_,PopChina), PopIndia > PopChina
