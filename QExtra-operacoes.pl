@@ -22,19 +22,19 @@ naxos:~ aguiar$ nano
 
 
 
-  GNU nano 2.0.6                New Buffer                                      
+  GNU nano 2.0.6                New Buffer                            Modified  
+
+% 1 - Crie uma regra para ober o primeiro elemento de uma lista, primeiro(X,L),
+% onde o X eh o primeiro elemneto da lista L.
+
+primeiro( [X] , X ).
+primeiro( [X|Y] , P ) :- R = X.
 
 
+% 2 - Crie uma regra para obter o ultimo elemento de uma lista, ultimo(X,L),
+% onde X eh o ultimo elemento da lista L
 
-
-
-
-
-
-
-
-
-
+ultimpo( [X] , X)
 
 
 
