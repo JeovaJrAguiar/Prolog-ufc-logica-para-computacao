@@ -42,7 +42,7 @@ primeiro( [X,_] , X).
 ultimpo( X , [X] ).
 ultimo( X , [_|Y] ) :- ultimo( R , Y ).
 
-% consulta: ultimo( X , [a,b,c,d,e,f])
+% consulta: ultimo( X , [a,b,c,d,e,f]).
 
 ^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
 ^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
